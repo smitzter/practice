@@ -1,3 +1,0 @@
-book = input("What's your favorite book? ")
-print = ("I love ") + book + ("!")
-print = ("...actually, ") + book + (" is kind of meh. You need a better taste in books!")
