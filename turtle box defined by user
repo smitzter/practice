@@ -1,0 +1,14 @@
+import turtle               # allows us to use the turtles library
+wn = turtle.Screen()        # creates a graphics window
+alex = turtle.Turtle()
+
+# TODO: prompt the user for a size
+length = int(input("How long do you want your box sides?"))
+# TODO: draw a square with sides of the given size
+alex.forward(length)           # tell alex to move forward by 150 units
+alex.left(90)               # turn by 90 degrees
+alex.forward(length)            # complete the second side of a rectangle
+alex.left(90)               # turn by 90 degrees
+alex.forward(length)            # complete the third side of a rectangle
+alex.left(90)               # turn by 90 degrees
+alex.forward(length)           # complete the third side of a rectangle
