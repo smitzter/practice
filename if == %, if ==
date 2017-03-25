@@ -1,0 +1,6 @@
+numb = int(input("Please enter a number:"))
+
+if numb % 2 == 0:
+           print("This number is even!")
+if numb % 5  == 0:
+           print("This number is divisible by 5!")
