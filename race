@@ -1,0 +1,6 @@
+miles = int(input("How many miles have you run so far?"))
+hours = int(input("How many hours ago did you start?"))
+rate = int(miles/hours)
+distance_remaining = (26.2 - miles)
+time_remaining = distance_remaining / rate
+print (time_remaining)
