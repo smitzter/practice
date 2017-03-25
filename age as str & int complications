@@ -1,0 +1,4 @@
+name = input("What is your name?")
+age = int(input("What is your age?"))
+age_five = str(age + 5)
+print ("In five years, " + name + " will be " + age_five + " years old! Wow!")
