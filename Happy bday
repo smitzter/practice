@@ -1,0 +1,8 @@
+name = input("What is your name?")
+lyric = "Happy Birthday to you,"
+middle_lyric = "Happy Birthday dear " + name +","
+final_lyric = "Happy Birthday to you!"
+print (lyric)
+print (lyric)
+print(middle_lyric)
+print(final_lyric)
