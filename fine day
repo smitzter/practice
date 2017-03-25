@@ -1,0 +1,3 @@
+name = input("What is your name? ")
+#TODO: print the response
+print = ("Well hello there ") + name + (", how are you this fine day?")
