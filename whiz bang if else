@@ -1,0 +1,7 @@
+user_submission = input("Enter an integer: ")
+user_submission = int(user_submission)
+
+if user_submission % 2 == 0:
+    print("whiz!")
+else:
+    print("bang!")
