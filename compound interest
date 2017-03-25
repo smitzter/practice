@@ -1,0 +1,5 @@
+principal = int(input("How much money do you currently have in the bank?"))
+rate = int(input("What is your interest rate?"))
+time = int(input("Over how many years is the interest compounded?"))
+compound = int(principal * (1 + rate) ^time) 
+print (compound)
