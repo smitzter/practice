@@ -1,0 +1,4 @@
+friends = ["ilvis", "Tranisha", "Felipe", "Edric", "Sierra", "Kristina", "Seylah", "Kelsey", "Livia"]
+
+for peep in friends:
+    print(peep, "come to my party dog.")
