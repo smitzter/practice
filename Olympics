@@ -1,0 +1,9 @@
+year = int(input("Please input a year:"))
+
+if year % 4 == 0:
+    print("There will be Summer Olympics!")
+if year % 2 == int(0):
+    if year % 4 != int(0):
+        print("There will be Winter Olympics!")
+else:
+        print("No Olympics this year.")
