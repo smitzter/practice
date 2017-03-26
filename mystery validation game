@@ -1,0 +1,12 @@
+a = int(input("Input a number:"))
+if a < 30:
+    print("Your number is not greater than 30")
+if a > 100:
+    print("Your number is not less than 100")
+else:
+    if a % 2 == 0:
+        print("Your number is even")
+#only prints even if less than 100 aka won't give even announcement if over 100        
+    else:
+        print("That's a great number. Thanks!")
+        
