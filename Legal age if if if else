@@ -8,3 +8,15 @@ if a >= 16:
     print("You can accidentally kill people with a car!")
 else:
     print("Some day, kid...")
+
+#alternatively if if if if
+a = int(input("Input your age:"))
+
+if a >= 21:
+    print("You can get drunk!")
+if a >= 18:
+    print("You can vote, die for your country and kill yourself with cigarette!")
+if a >= 16:
+    print("You can accidentally kill people with a car!")
+if a < 16:
+    print("Some day, kid...")
