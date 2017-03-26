@@ -1,0 +1,6 @@
+for i in [4, 8, 12, 16, 20]:
+    print(i)
+
+#is same as
+print(range(4, 21, 4))
+#start,stop+1,step
