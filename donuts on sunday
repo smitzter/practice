@@ -1,11 +1,13 @@
-day = input("What day of the week is it?")
-date = input("What day of the month is it?")
-
 donut25 = float(12 - (12 * .99 * .25))
 donut = float(12 * .99)
 
+day = input("What day of the week is it?")
+date = int(input("What day of the month is it?"))
+
 if day == ("Sunday"):
-    if date % 2 == 0:
+    if date % 2 == int(0):
         print(donut25)
-    else:
+       
+else:
         print(donut)
+
