@@ -1,0 +1,9 @@
+month = input("What month is it?")
+day = input("What day of the week is it?")
+
+if month == ("March"):
+    if day == ("Tuesday"):
+        print("There is a secret drink today, in celebration of St. Patrick's Day!")
+    
+else:
+        print("Sorry, this drink is only offered in March!")
