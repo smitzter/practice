@@ -1,0 +1,14 @@
+month = input("What month is it?")
+day = input("What day is it?") 
+rain = input("Is it rainy or sunny?")
+
+if month != ("June"):
+    print("Sorry, concerts are only held during June!")
+if day != ("Friday"):
+        print("Sorry, concerts are only held on Fridays!")
+if month == ("June"):
+        if day == ("Friday"):
+            if rain == ("sunny"):
+                print("There is a concert tonight! It will be held outside in the adjacent park!")    
+            else:
+                print("There is a concert tonight! It will be held inside the art museum.")
