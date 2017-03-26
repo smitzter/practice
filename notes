@@ -1,0 +1,17 @@
+#Python is case sensitive and spacing sensitive
+#Colors: https://www.w3schools.com/colors/colors_names.asp
+
+//	division w/o float	
+/	division with float	
+%	remainder	modulus operator
+==	equal	
+= 	assignment operator aka same as	
+x != y	# x is not equal to y	
+x > y	# x is greater than y	
+x < y	# x is less than y	
+x >= y	# x is greater than or equal to y	
+x <= y 	# x is less than or equal to y	
+i	variable iterator	
+**	square of number	
+range()	can deliver a sequence of values for the for loop (ie: range(4) will give 4 values starting with zero)	
+range(start, stop+1, step)		
