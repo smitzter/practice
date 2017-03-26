@@ -1,0 +1,6 @@
+for i in range(21) :
+    if i % 3 ==0:
+        print("Hip")
+    
+    if i % 7 == 0:
+        print("Hooray")
