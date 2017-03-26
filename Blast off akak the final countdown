@@ -1,8 +1,6 @@
-#this code is not working atm
-
 x = int(input("enter a number: "))
 
-for x in range(x - 1 != 0):
+for x in range(x, 0, -1):
     print(x,"...")
 
 print("Blast Off!!!")
