@@ -1,3 +1,5 @@
+#this code is not passing the assignment despite looking like it should
+
 name = input("What is your name?")
 
 if name == ("Wally"):
@@ -16,3 +18,26 @@ if name == ("Brandy"):
   
 else:
   print("Hello " + name)
+
+#i tried adding str & also moving it around with no avail
+
+name = input(str("What is your name?"))
+
+if name == str("Wally"):
+  print("Hello " + name + " :)")
+  
+if name == str("Maria"):
+  print("Hello " + name + " :)")
+
+if name == str("Amar"):
+  print("Hello " + name + " :)")
+  print ("I like your shoes")
+
+if name == str("Brandy"):
+  print("Hello " + name + " :)")
+  print ("You seem like a cool person")
+
+else:
+    print("Hello " + name)
+    
+    #another variation that didn't pass
