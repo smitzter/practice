@@ -41,3 +41,47 @@ else:
     print("Hello " + name)
     
     #another variation that didn't pass
+name = input("What is your name?")
+
+if name == ("Wally"):
+  print("Hello " + name + " :)")
+  
+if name == ("Maria"):
+  print("Hello " + name + " :)")
+
+if name == ("Amar"):
+  print("Hello " + name + " :)")
+  print ("I like your shoes")
+
+if name == ("Brandy"):
+  print("Hello " + name + " :)")
+  print ("You seem like a cool person")
+
+if name != ["Wally", "Maria", "Amar", "Brandy"]:
+    print("Hello " + name)
+    
+ #and another variation. i feel like all these should work
+#i even googled and found this suggestion:
+name = input("What is your name?")
+
+if name != 'Amar':
+  if name != 'Brandy':
+    if name != ("Maria"):
+        if name != ("Wally"):
+            print("Hello " + name)
+    
+if name == ("Wally"):
+  print("Hello " + name + " :)")
+  
+if name == ("Maria"):
+  print("Hello " + name + " :)")
+
+if name == ("Amar"):
+  print("Hello " + name + " :)")
+  print ("I like your shoes")
+
+if name == ("Brandy"):
+  print("Hello " + name + " :)")
+  print ("You seem like a cool person")
+  
+  
