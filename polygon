@@ -1,0 +1,11 @@
+import turtle
+wn = turtle.Screen()       
+alex = turtle.Turtle()
+
+length = int(input("How long do you want your box sides?"))
+number = int(input("How many box sides do you want?"))
+degree = 360 / number
+
+for i in range(number):
+    alex.forward(length)
+    alex.left(degree)
