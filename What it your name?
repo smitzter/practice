@@ -1,4 +1,20 @@
-#this code is not passing the assignment despite looking like it should
+#finally found the problem, it was not with my code but my ability to understand their instructions.
+#Here is passing code
+name = input("What is your name?")
+
+if name != 'Amar':
+  if name != 'Brandy':
+    print("Hello " + name + " :)")
+    
+if name == ("Amar"):
+  print("Hello " + name + " :)")
+  print ("I like your shoes")
+
+if name == ("Brandy"):
+  print("Hello " + name + " :)")
+  print ("You seem like a cool person")
+
+#the following code did not passing the assignment despite looking like it should bc there were only two operators instead of four as I had thought.
 
 name = input("What is your name?")
 
