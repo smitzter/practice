@@ -1,0 +1,6 @@
+print("the average temperature for the week was:")
+      
+def mean(numbers):
+    return float(sum(numbers)) / max(len(numbers), 1)
+
+print(mean([83, 88, 93, 90, 90, 92, 92]))
