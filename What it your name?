@@ -1,18 +1,18 @@
 name = input("What is your name?")
 
 if name == ("Wally"):
-  print("Hello" + name + ":)")
+  print("Hello " + name + ":)")
   
 if name == ("Maria"):
-  print("Hello" + name + ":)")
+  print("Hello " + name + ":)")
 
 if name == ("Amar"):
-  print("Hello" + name + ":)")
+  print("Hello " + name + ":)")
   print ("I like your shoes")
 
 if name == ("Brandy"):
-  print("Hello" + name + ":)")
+  print("Hello " + name + ":)")
   print ("You seem like a cool person")
   
 else:
-  print("Hello" + name)
+  print("Hello " + name)
